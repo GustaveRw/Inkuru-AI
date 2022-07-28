@@ -10,11 +10,11 @@ This project is a conversational voice controlled React News Application using A
 
 ### Available Scripts
 
-### `npm install` or ### `yarn` 
+### `npm install` or `yarn` 
 
 To install all dependencies
 
-### `npm start` or ### `yarn start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
