@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import AlanBtn from "@alan-ai/alan-sdk-web";
 import NewsCards from "./components/NewsCards/NewsCards";
-import useStyles from "./styles";
+import useStyles from "./styles.js";
 import wordsToNumbers from "words-to-numbers";
-import alanBtn from "@alan-ai/alan-sdk-web";
 
-const AlanKey = 'b824c0672aa92c2832ef79a4e626e5382e956eca572e1d8b807a3e2338fdd0dc'
+const AlanKey = 'b824c0672aa92c2832ef79a4e626e5382e956eca572e1d8b807a3e2338fdd0dc/stage'
 
 const App = () => {
 
@@ -26,10 +25,10 @@ const App = () => {
           const article = articles[parsedNumber - 1];
 
           if(parsedNumber > 20) {
-            alanBtn().playText('Please Try that again');
+            AlanBtn().playText('Please Try that again');
           } else if (article) {
             window.open(article.url, '_blank');
-            alanBtn().playText('Opening...');
+            AlanBtn().playText('Opening...');
           }
         }
       }
