@@ -1,12 +1,20 @@
-# Getting Started with Create React App
+# Inkuru AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A voice controlled React News Web Application powered by conversational AI.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project is a conversational voice controlled React News Application using Alan AI and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+## How to run this application locally 
+
+### Available Scripts
+
+### `npm install` or ### `yarn` 
+
+To install all dependencies
+
+### `npm start` or ### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -68,3 +76,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+#### Jean Marie Gustave MBONYINSHUTI

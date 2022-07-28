@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createRef } from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
-import useStyles from './styles';
+import useStyles from './styles.js';
 import classNames from 'classnames';
 
 const NewsCard = ({ article : { description, publishedAt, source, title, url, urlToImage}, i, activeArticle }) => {
